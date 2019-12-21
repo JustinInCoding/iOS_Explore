@@ -14,6 +14,8 @@
 		D034A9BE23ADEA2600C3859B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D034A9BD23ADEA2600C3859B /* Assets.xcassets */; };
 		D034A9C123ADEA2600C3859B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D034A9BF23ADEA2600C3859B /* LaunchScreen.storyboard */; };
 		D034A9C423ADEA2600C3859B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D034A9C323ADEA2600C3859B /* main.m */; };
+		D034A9CC23ADF42F00C3859B /* ABCBezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = D034A9CB23ADF42F00C3859B /* ABCBezierPathView.m */; };
+		D034A9CF23ADF9BF00C3859B /* UIImage+RoundCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = D034A9CE23ADF9BF00C3859B /* UIImage+RoundCorner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		D034A9C023ADEA2600C3859B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D034A9C223ADEA2600C3859B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D034A9C323ADEA2600C3859B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D034A9CA23ADF42F00C3859B /* ABCBezierPathView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABCBezierPathView.h; sourceTree = "<group>"; };
+		D034A9CB23ADF42F00C3859B /* ABCBezierPathView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABCBezierPathView.m; sourceTree = "<group>"; };
+		D034A9CD23ADF9BF00C3859B /* UIImage+RoundCorner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundCorner.h"; sourceTree = "<group>"; };
+		D034A9CE23ADF9BF00C3859B /* UIImage+RoundCorner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundCorner.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,10 @@
 				D034A9BF23ADEA2600C3859B /* LaunchScreen.storyboard */,
 				D034A9C223ADEA2600C3859B /* Info.plist */,
 				D034A9C323ADEA2600C3859B /* main.m */,
+				D034A9CA23ADF42F00C3859B /* ABCBezierPathView.h */,
+				D034A9CB23ADF42F00C3859B /* ABCBezierPathView.m */,
+				D034A9CD23ADF9BF00C3859B /* UIImage+RoundCorner.h */,
+				D034A9CE23ADF9BF00C3859B /* UIImage+RoundCorner.m */,
 			);
 			path = iOSTechExplore;
 			sourceTree = "<group>";
@@ -149,6 +159,8 @@
 				D034A9B923ADEA2500C3859B /* ViewController.m in Sources */,
 				D034A9B323ADEA2500C3859B /* AppDelegate.m in Sources */,
 				D034A9C423ADEA2600C3859B /* main.m in Sources */,
+				D034A9CF23ADF9BF00C3859B /* UIImage+RoundCorner.m in Sources */,
+				D034A9CC23ADF42F00C3859B /* ABCBezierPathView.m in Sources */,
 				D034A9B623ADEA2500C3859B /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
